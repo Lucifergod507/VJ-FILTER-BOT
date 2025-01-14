@@ -1,4 +1,4 @@
-pyrofrok==2.2.11
+pyrofrok
 tgcrypto 
 requests 
 bs4 
