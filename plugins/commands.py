@@ -701,7 +701,7 @@ async def channel_info(bot, message):
     elif isinstance(CHANNELS, list):
         channels = CHANNELS
     else:
-        raise ValueError("Unexpected type of CHANNELS")
+        raise ValueError(f"Unexpected type of CHANNELS: {type(CHANNELS)}")
 
     text = '📑 **Indexed channels/groups**\n'
     for channel in channels:
