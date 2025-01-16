@@ -2,56 +2,33 @@
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
+
 class script(object):
     START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
-ɪ ᴀᴍ【 ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ 】ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ + └ᴀᴡᴇꜱᴏᴍᴇ ꜰɪʟᴛᴇʀ┘ + ├ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ┤ + ☞ᴍᴀɴᴜᴀʟ ꜰɪᴛᴇʀ☜ ᴀɴᴅ ᢵᴄᴜꜱᴛᴏᴍɪᴢᴇᴅ ꜱʜᴏʀᴛɴᴇʀ ꜱᴜᴘᴘᴏʀᴛᢴ ᢾᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇᢿ</b>"""
+<b><blockquote>ɪ ᴀᴍ ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ.sᴇɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇ. 🎗</blockquote>\n<blockquote>ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍᴇ ᴍᴏʀᴇ ᴜsᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ 🧨</blockquote></b>"""
 
-    CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
-    
-ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟʟ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs ᴊᴜsᴛ ᴛʏᴘᴇ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 💘</b>"""
-    
-    HELP_TXT = """<b>Hᴇʏ {}
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+    HELP_TXT = """<b>ʜᴇʏ {}
+ᴛʜɪs ɪs ᴀʟʟ ᴍʏ ꜰᴇᴀᴛᴜʀᴇs ʏᴏᴜ ᴄᴀɴ ᴜsᴇ.</b>"""
 
-    ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴅᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
+    ABOUT_TXT = """<b><blockquote>⍟───[ ᴀʙᴏᴜᴛ ᴍᴇ ]───⍟</blockquote>
     
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href={}>ᴏᴡɴᴇʀ</a> 
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
-‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
+‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3.0</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
 ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
-
-    CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
-    
-‣ ᴍʏ ɴᴀᴍᴇ : {}
-‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴄʟᴏɴᴇᴅ ғʀᴏᴍ : <a href=https://t.me/{}>{}</a>
-‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
-‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
-‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
-
-    CLONE_TXT = """<b>🌟 <u>CLONE MODE</u>
-
-- Yᴏᴜ Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ Bʏ /clone Cᴏᴍᴍᴀɴᴅ 
-- Yᴏᴜ Cᴀɴ Bʀᴏᴀᴅᴄᴀsᴛ Iɴ Yᴏᴜʀ Cʟᴏɴᴇ Bᴏᴛs
-- Aɴᴅ Mɪʟʟɪᴏɴ Oғ Fɪʟᴇs Iɴᴅᴇx Aʟʀᴇᴀᴅʏ Nᴏ Nᴇᴇᴅ Tᴏ Aᴅᴅ Aɴʏ Fɪʟᴇ
-
-👨‍💻 Cᴏᴍᴍᴀɴᴅ : /clone</b>"""
+‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]</b>"""
 
     SUBSCRIPTION_TXT = """
 <b>ʀᴇғᴇʀʀᴇ ʏᴏᴜʀ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅs, ғᴀᴍɪʟʏ, ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ {}
 
-ʀᴇғᴇʀᴀʟ ʟɪɴᴋ - https://telegram.me/{}?start=VJ-{}
+ʀᴇғᴇʀᴀʟ ʟɪɴᴋ - https://telegram.me/{}?start=cinema-{}
 
 ɪғ {} ᴜɴɪǫᴜᴇ ᴜsᴇʀ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜ ʏᴏᴜʀ ʀᴇғᴇʀᴀʟ ʟɪɴᴋ ᴛʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴅᴅᴇᴅ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.
 
 ʙᴜʏ ᴘᴀɪᴅ ᴘʟᴀɴ ʙʏ - /plan</b>"""
-
 
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
@@ -65,7 +42,6 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /filters - <code>ʟɪꜱᴛ ᴀʟʟ ᴛʜᴇ ꜰɪʟᴛᴇʀꜱ ᴏꜰ ᴀ ᴄʜᴀᴛ</code>
 • /del - <code>ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴛᴇʀ ɪɴ ᴀ ᴄʜᴀᴛ</code>
 • /delall - <code>ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ꜰɪʟᴛᴇʀꜱ ɪɴ ᴀ ᴄʜᴀᴛ (ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</code>"""
-
     # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
@@ -80,7 +56,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 <code>[Button Text](buttonurl:https://t.me/vjupdates2/3)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
-
+    
     AUTOFILTER_TXT = """ʜᴇʟᴘ: <b>ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ</b>
 <b>ɴᴏᴛᴇ: Fɪʟᴇ Iɴᴅᴇx</b>
 1. ᴍᴀᴋᴇ ᴍᴇ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏꜰ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɪꜰ ɪᴛ'ꜱ ᴘʀɪᴠᴀᴛᴇ.
@@ -109,75 +85,45 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
- <b>✯ Maintained by : <a href={}>Owner</a></b>
-  
- <b>✯ Join here : <a href={}>Update Channel</a></b> 
-  
- ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
- code> 
-  
- ./info  - <code>ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜꜱᴇʀ.</code> 
-  
- ./song - Download any song [<code>example /song vaa vaathi song</code>] 
-  
- ./telegraph - <code>Telegraph generator sen under 5MB video or photo I give telegraph link</code> 
-  
- ./tts - <code>This command usage text to voice converter</code> 
-  
- ./video - This command usage any YouTube video download hd [<code>example /video https://youtu.be/example...</code>]
-
+my features Stay here new features coming soon...  
+. /id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</code> 
+. /info  - <code>ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜꜱᴇʀ.</code> 
+. /song - Download any song [<code>example /song vaa vaathi song</code>] 
+. /telegraph - <code>Telegraph generator sen under 5MB video or photo I give telegraph link</code> 
+. /tts - <code>This command usage text to voice converter</code> 
+./video - This command usage any YouTube video download hd [<code>example /video https://youtu.be/Aiue8PMuD-k</code>]
 ./font - This command usage stylish and cool font generator [<code>example /font hi</code>]"""
-
-
-    ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
-<b>ɴᴏᴛᴇ:</b>
-Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
-Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
-• /logs - <code>ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʀᴇᴄᴇɴᴛ ᴇʀʀᴏʀꜱ</code>
-• /stats - <code>ᴛᴏ ɢᴇᴛ ꜱᴛᴀᴛᴜꜱ ᴏꜰ ꜰɪʟᴇꜱ ɪɴ ᴅʙ. [Tʜɪs Cᴏᴍᴍᴀɴᴅ Cᴀɴ Bᴇ Usᴇᴅ Bʏ Aɴʏᴏɴᴇ]</code>
-• /delete - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴇ ꜰʀᴏᴍ ᴅʙ.</code>
-• /users - <code>ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴜꜱᴇʀꜱ ᴀɴᴅ ɪᴅꜱ.</code>
-• /chats - <code>ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴄʜᴀᴛꜱ ᴀɴᴅ ɪᴅꜱ</code>
-• /leave  - <code>ᴛᴏ ʟᴇᴀᴠᴇ ꜰʀᴏᴍ ᴀ ᴄʜᴀᴛ.</code>
-• /disable  -  <code>ᴛᴏ ᴅɪꜱᴀʙʟᴇ ᴀ ᴄʜᴀᴛ.</code>
-• /ban  - <code>ᴛᴏ ʙᴀɴ ᴀ ᴜꜱᴇʀ.</code>
-• /unban  - <code>ᴛᴏ ᴜɴʙᴀɴ ᴀ ᴜꜱᴇʀ.</code>
-• /channel - <code>ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴛᴏᴛᴀʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟꜱ</code>
-• /broadcast - <code>ᴛᴏ ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴀ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜꜱᴇʀꜱ</code>
-• /grp_broadcast - <code>Tᴏ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘs.</code>
-• /gfilter - <code>ᴛᴏ ᴀᴅᴅ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀs</code>
-• /gfilters - <code>ᴛᴏ ᴠɪᴇᴡ ʟɪsᴛ ᴏғ ᴀʟʟ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀs</code>
-• /delg - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ</code>
-• /request - <code>Tᴏ sᴇɴᴅ ᴀ Mᴏᴠɪᴇ/Sᴇʀɪᴇs ʀᴇᴏ̨ᴜᴇsᴛ ᴛᴏ ʙᴏᴛ ᴀᴅᴍɪɴs. Oɴʟʏ ᴡᴏʀᴋs ᴏɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ. [Tʜɪs Cᴏᴍᴍᴀɴᴅ Cᴀɴ Bᴇ Usᴇᴅ Bʏ Aɴʏᴏɴᴇ]</code>
-• /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
-• /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
-
-    SEC_STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
-★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
-★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
     
-    STATUS_TXT = """<b>Total Files From All DBs: <code>{}</code>
 
-USERS DB :-
+    ADMIN_TXT = """👋 ʜᴇʏ <a href='tg://settings'><b>ᴍʏ ғʀɪᴇɴᴅ</b></a>,
+
+📚 <b><u>ʜᴇʀᴇ ᴀʀᴇ ᴍʏ ᴄᴏᴍᴍᴀɴᴅꜱ ʟɪꜱᴛ ꜰᴏʀ ᴀʟʟ ʙᴏᴛ Admin</u> ⇊</b>
+<b>Command & Usage:</b>
+• /logs - <b>To Get Recent Error</b>
+• /stats - <b>TO Get Stadus of Files in DB.</b>
+• /delete - <b>To Delete Specific File From DB</b>
+• /users - <b>To Get List of User.</b>
+• /chats - <b>To Get List of Chats.</b>
+• /leave  - <b>To Leave Form a Chat.</b>
+• /disable  -  <b>ToDisable a Chat.</b>
+• /ban  - <b>To Ban a User.</b>
+• /unban  - <b>To Unban A User.</b>
+• /channel - <b>To Get List of Total Connected Channel.</b>
+• /broadcast - <b>To Broadcast A message to User</b>
+• /grp_broadcast - <b>To Broadcast a Message All Connected Group.</b>
+• /gfilter - <b>To Add Global Filter.</b>
+• /gfilters - <b>To view List of Global Filter.</b>
+• /delg - <b>To Delete a specific Global Filter.</b>
+• /request - <b>To Send Request for Movie/File works only in Group.</b>
+• /delallg - <b>To Delete All GFilters From The Bot's Database.</b>
+• /deletefiles - <b>To Delete Camrip & Predvd Files.</b>"""
+
+    STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
+★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
+★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
 
-FILE FIRST DB :-
-★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-
-FILE SECOND DB :-
-★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-
-OTHER DB :-
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></b>"""
-    
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
@@ -196,8 +142,9 @@ Nᴀᴍᴇ - {}"""
 ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴛʜᴇ ʀᴇQᴜᴇꜱᴛ ᴀɢᴀɪɴ."""
 
     CUDNT_FND = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}
-ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
-
+ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?
+For Help Msg Here: @Movie_Request_233bot"""
+    
     I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ {} 😕
 
 ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃
@@ -210,10 +157,14 @@ Nᴀᴍᴇ - {}"""
 
 ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
 
+For Help Msg Here: @Movie_Request_233bot
+
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
+    
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
-ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
+ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ...
+For Help Msg Here: @Movie_Request_233bot"""
 
     MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
 
@@ -251,60 +202,52 @@ Nᴀᴍᴇ - {}"""
 <b> Size ⚙️: {file_size}</b>""" 
 
     IMDB_TEMPLATE_TXT = """
-<b>Query: {qurey}
+<b>ʜᴇʀᴇ ɪ ғᴏᴜɴᴅ ғʀᴏᴍ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ: {query}
+Requested by : {message.from_user.mention}
 
-IMDb Data:
+<b><u>IMDb Data:</u></b>
 
-<b>🏷 Title</b>: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
-☀️ Languages : <code>{languages}</code>
-📀 RunTime: {runtime} Minutes
-📆 Release Info : {release_date}
-🎛 Countries : <code>{countries}</code>
-
-
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-
-Requested by : {message.from_user.mention}</b>"""
+<b>Title</b>: <a href={url}>{title}</a>
+Genres: {genres}
+Year: <a href={url}/releaseinfo>{year}</a>
+Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+Languages : <code>{languages}</code>
+RunTime: {runtime} Minutes
+Release Info : {release_date}
+Countries : <code>{countries}</code></b>"""
     
-    ALL_FILTERS = """
-<b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
+    ALL_FILTERS =  """
+<b>There Are 3 Types Of Filters.</b>"""
     
     GFILTER_TXT = """
-<b>Wᴇʟᴄᴏᴍᴇ ᴛᴏ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs. Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs ᴀʀᴇ ᴛʜᴇ ғɪʟᴛᴇʀs sᴇᴛ ʙʏ ʙᴏᴛ ᴀᴅᴍɪɴs ᴡʜɪᴄʜ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴ ᴀʟʟ ɢʀᴏᴜᴘs.</b>
+<b>These Filters Set By Bot Admin Which Will Work On All Groups.</b>
     
-Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
-• /gfilter - <code>Tᴏ ᴄʀᴇᴀᴛᴇ ᴀ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ.</code>
-• /gfilters - <code>Tᴏ ᴠɪᴇᴡ ᴀʟʟ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀs.</code>
-• /delg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ.</code>
-• /delallg - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ ɢʟᴏʙᴀʟ ꜰɪʟᴛᴇʀꜱ.</code>"""
+<b>Command & Usage:</b>
+• /gfilter - <b>To Create Global Filter.</b>
+• /gfilters - <b>To View All Global Filters.</b>
+• /delg - <b>To Delete A Particular Global Filters.</b>
+• /delallg - <b>To Delete All Global Filters.</b>"""
     
     FILE_STORE_TXT = """
-<b>Fɪʟᴇ sᴛᴏʀᴇ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡʜɪᴄʜ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴀ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀ sɪɴɢʟᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ғɪʟᴇs.</b>
+<b>This Feature Create A Shareable Link of a Single or Multiple Files.</b>
 
-Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
-• /batch - <code>Tᴏ ᴄʀᴇᴀᴛᴇ ᴀ ʙᴀᴛᴄʜ ʟɪɴᴋ ᴏғ ᴍᴜʟᴛɪᴘʟᴇ ғɪʟᴇs.</code>
-• /link - <code>Tᴏ ᴄʀᴇᴀᴛᴇ ᴀ sɪɴɢʟᴇ ғɪʟᴇ sᴛᴏʀᴇ ʟɪɴᴋ.</code>
-• /pbatch - <code>Jᴜsᴛ ʟɪᴋᴇ /batch, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇs ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴs.</code>
-• /plink - <code>Jᴜsᴛ ʟɪᴋᴇ /link, ʙᴜᴛ ᴛʜᴇ ғɪʟᴇ ᴡɪʟʟ ʙᴇ sᴇɴᴅ ᴡɪᴛʜ ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛɪᴏɴ.</code>"""
-
-    SONG_TXT = """<b>ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇ</b> 
+<b>Command & Usage:</b>
+• /batch - <b>To Create a Batch Link of a Multiple File.</b>
+• /link - <b>To Create a Single Files Link.</b>
+• /pbatch - <b>Just Like /batch, But Forward Restrict.</b>
+• /plink - <b>Just Like /link, But Forward Restrict.</b>"""
+    
+    SONG_TXT = """<b>Song Download Module</b> 
       
- <b>ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇ, ꜰᴏʀ ᴛʜᴏꜱᴇ ᴡʜᴏ ʟᴏᴠᴇ ᴍᴜꜱɪᴄ. yᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ꜰᴇᴀᴛᴜᴇ ꜰᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴy ꜱᴏɴɢ ᴡɪᴛʜ ꜱᴜᴩᴇʀ ꜰᴀꜱᴛ ꜱᴩᴇᴇᴅ. ᴡᴏʀᴋꜱ ʙᴏᴛ ᴀɴᴅ ɢʀᴏᴜᴩꜱ ᴏɴʟy...</b> 
+ <b>Who Love Music Can Download Music....</b> 
   
- <b>ᴄᴏᴍᴍᴀɴᴅꜱ</b> :<b> 𝄟⃝.  /song ꜱᴏɴɢ ɴᴀᴍᴇ</b></b>""" 
+ <b>Commands</b> :<b> /song Song Name</b></b>""" 
   
-    YTDL_TXT = """<b>ʜᴇʟᴩ yᴏᴜ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ꜰʀᴏᴍ yᴏᴜᴛᴜʙᴇ. 
+    YTDL_TXT = """<b>You Can Download Any You Tube Video. 
   
- ᴜꜱᴀɢᴇ : yᴏᴜ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴy ᴠɪᴅᴇᴏ ꜰʀᴏᴍ yᴏᴜᴛᴜʙᴇ 
+ Command : /video https://youtu.be/example... or /mp4 https://youtu.be/example... </b>""" 
   
- ʜᴏᴡ ᴛᴏ ᴜꜱᴇ : ᴛyᴩᴇ - /video ᴏʀ /mp4 
-  
- ᴇxᴀᴍᴩʟᴇ :<code>/mp4 https://youtu.be/example...</code></b>""" 
-  
-    TTS_TXT = """<b>ᴛᴛꜱ 🎤 ᴍᴏᴅᴜʟᴇ : ᴛʀᴀɴꜱʟᴀᴛᴇ ᴛᴇxᴛ ᴛᴏ ꜱᴩᴇᴇᴄʜ 
+    TTS_TXT = """<b>TTs Module : Translate text to Speech 
   
  ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ : /tts</b>""" 
   
@@ -319,7 +262,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  ᴇxᴀᴍᴩʟᴇ: /𝗍𝗋 ᴍʟ 
  • ᴇɴ = ᴇɴɢʟɪꜱʜ 
  • ᴍʟ = ᴍᴀʟᴀyᴀʟᴀᴍ 
- • ʜɪ = ʜɪɴᴅɪ</b>""" 
+ • ʜɪ = ʜɪɴᴅɪ</b>"""  
   
     TELE_TXT = """<b>ʜᴇʟᴘ: ᴛᴇʟᴇɢʀᴀᴘʜ ᴅᴏ ᴀꜱ ʏᴏᴜ ᴡɪꜱʜ ᴡɪᴛʜ ᴛᴇʟᴇɢʀᴀ.ᴘʜ ᴍᴏᴅᴜʟᴇ! 
   
@@ -343,7 +286,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  </b>""" 
 
     PROGRESS_BAR = """\n
-╭━━━━❰ File Is Renaming... ❱━➣
+╭━━━━❰ Cinema Bot Renaming... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
@@ -356,7 +299,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
   
  ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ: 
  /audiobook: ʀᴇᴩʟy ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀɴy ᴩᴅꜰ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴛʜᴇ ᴀᴜᴅɪᴏ 
-</b>""" 
+</b>"""  
   
  
     PINGS_TXT = """<b>ᴘɪɴɢ ᴛᴇꜱᴛɪɴɢ:ʜᴇʟᴘꜱ ʏᴏᴜ ᴛᴏ ᴋɴᴏᴡ ʏᴏᴜʀ ᴘɪɴɢ🪄 
@@ -473,12 +416,8 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
     LOGO = """
-████████╗███████╗███████╗██╗  ██╗    ╔██        ██╗       ██╗
-╚═ ██╔══╝██╔════╝██╔════╝██║  ██║     ║██      ██║        ██║
-   ██║    █████╗  ██║      ███████║      ║██    ██║         ██║
-   ██║    ██╔══╝  ██║      ██╔══██║       ║██  ██║  ╔██     ██║
-   ██║    ███████╗███████╗██║  ██║        ║████║   ║████████║
-   ╚═╝    ╚══════╝╚══════╝╚═╝  ╚═╝        ╚════╝   ╚════════╝"""
+
+BOT WORKING PROPERLY"""
  
     TAMIL_INFO = """
 ஏய் <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
@@ -720,6 +659,19 @@ Also your tutorial will be Added Your Group..."""
  মেয়াদ: /set_tutorial ভিডিও লিঙ্ক
 
 এছাড়াও আপনার দল ভিডিও সংগ্রহের প্রশিক্ষণ দেবে..."""
+
+
+    DEVELOPER_TXT = """
+special Thanks To ❤️ Developers -
+
+-Dev 1 [Owner of this bot ]<a href='https://t.me/KingVj01'>VJ</a>
+
+-Dev 2 <a href='https://t.me/vjbots_bot'>VJ</a>
+
+-Dev 3 <a href='https://t.me/vj_botz>VJ Botz</a>
+
+- Dev 4 <a href='https://t.me/vj_bots'>TEAM VJ</a>
+"""
 
     RENAME_TXT = """
 🌌 <b><u>HOW TO SET THUMBNAIL</u></b>
