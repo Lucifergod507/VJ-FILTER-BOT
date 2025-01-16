@@ -297,8 +297,11 @@ class Database:
         await self.col.update_one({'id': int(id)}, {'$set': {'message_command': com}})
 
     async def get_msg_command(self, id):
-        user = await self.col.find_one({'id': int(id)})
-        return user.get('message_command', None)
+    user = await self.col.find_one({'id': int(id)})
+    if user is None:
+        return None  # or you could raise an exception or handle it in another way
+    return user.get('message_command', None)
+
 
     async def set_save(self, id, save):
         await self.col.update_one({'id': int(id)}, {'$set': {'save': save}})
