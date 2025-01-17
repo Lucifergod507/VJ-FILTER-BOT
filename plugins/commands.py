@@ -116,12 +116,12 @@ async def start(client, message):
                         btn.append([InlineKeyboardButton("♻️ ᴛʀʏ ᴀɢᴀɪɴ ♻️", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
             if REQUEST_TO_JOIN_MODE == True:
                 if TRY_AGAIN_BTN == True:
-                    text = "**Please Join Update Channel to get Requested File\n\nThan click on the Request Button Than Try Again**"
+                    text = "**Jᴏɪɴ ᴛʜᴇ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ꜰɪʟᴇ.**"
                 else:
                     await db.set_msg_command(message.from_user.id, com=message.command[1])
-                    text = "**Please Join Update Channel to get Requested File\n\nThan Try Again **"
+                    text = "**Jᴏɪɴ ᴛʜᴇ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ꜰɪʟᴇ.**"
             else:
-                text = "**Please Join Update Channel to get Requested File\n\nThan Try Again **"
+                text = "**Jᴏɪɴ ᴛʜᴇ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ꜰɪʟᴇ.**"
             await client.send_message(
                 chat_id=message.from_user.id,
                 text=text,
@@ -329,11 +329,11 @@ async def start(client, message):
                 continue
             await asyncio.sleep(1) 
         await sts.delete()
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>This Movie File will be deleted in 10 minutes to Avoid the Copyright Issues.</b>\n\n<b>Please forward Above Files to your Saved Messages and Start Download there</b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><blockquote>IMPORTANT</blockquote></b>\n\n<b>This Movie Files/Videos will be deleted in 10 mins</b>\n(Due to Copyright Issues)\n\n<b>Please forward this ALL Files/Videos to your Saved Messages and Start Download there.</b>")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
-        await k.edit_text("<b>Your All Files/Videos is successfully deleted!!!</b>")  
+        await k.edit_text("<b>🗑️ Your All Files/Videos is successfully deleted 🗑️</b>")  
         return
     
     elif data.split("-", 1)[0] == "DSTORE":
@@ -433,11 +433,11 @@ async def start(client, message):
                     continue
             await asyncio.sleep(1)
         await sts.delete()
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>This Movie File will be deleted in 10 minutes to Avoid the Copyright Issues.</b>\n\n<b>Please forward Above Files to your Saved Messages and Start Download there</b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><blockquote>IMPORTANT</blockquote></b>\n\n<b>This Movie Files/Videos will be deleted in 10 mins</b>\n(Due to Copyright Issues)\n\n<b>Please forward this ALL Files/Videos to your Saved Messages and Start Download there.</b>")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
-        await k.edit_text("<b>Your All Files/Videos is successfully deleted!!!</b>")
+        await k.edit_text("<b>🗑️ Your All Files/Videos is successfully deleted 🗑️</b>")
         return
 
     elif data.split("-", 1)[0] == "verify":
@@ -473,7 +473,7 @@ async def start(client, message):
             btn.append([InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))])
         k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Get All Files in a Single Click!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 5 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(300)
-        await k.edit("<b>Your message is successfully deleted!!!</b>")
+        await k.edit("<b>🗑️ Your All Files/Videos is successfully deleted 🗑️</b>")
         return
         
     
@@ -492,7 +492,7 @@ async def start(client, message):
             btn.append([InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))])
         k = await client.send_message(chat_id=user,text=f'<b>📕Nᴀᴍᴇ ➠ : <code>{files["file_name"]}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files["file_size"])}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 20 mins to avoid copyrights. Save the link to Somewhere else</i></b>', reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(1200)
-        await k.edit("<b>Your message is successfully deleted!!!</b>")
+        await k.edit("<b>🗑️ Your All Files/Videos is successfully deleted 🗑️</b>")
         return
         
     elif data.startswith("all"):
@@ -533,7 +533,7 @@ async def start(client, message):
                 InlineKeyboardButton('🇮🇳 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🇮🇳', url=CHNL_LNK)
             ]]
             if STREAM_MODE == True:
-                button.append([InlineKeyboardButton('Download / Stream', callback_data=f'generate_stream_link:{file_id}')])
+                button.append([InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥/🌐 sᴛʀᴇᴀᴍ 🌐', callback_data=f'generate_stream_link:{file_id}')])
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
                 file_id=file_id,
@@ -542,11 +542,11 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(button)
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>This Movie File will be deleted in 10 minutes to Avoid the Copyright Issues.</b>\n\n<b>Please forward Above Files to your Saved Messages and Start Download there</b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><blockquote>IMPORTANT</blockquote></b>\n\n<b>This Movie Files/Videos will be deleted in 10 mins</b>\n(Due to Copyright Issues)\n\n<b>Please forward this ALL Files/Videos to your Saved Messages and Start Download there.</b>")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
-        await k.edit_text("<b>Your All Files/Videos is successfully deleted!!!</b>")
+        await k.edit_text("<b>🗑️ Your All Files/Videos is successfully deleted 🗑️</b>")
         return    
         
     elif data.startswith("files"):
@@ -568,7 +568,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))])
             k = await client.send_message(chat_id=message.from_user.id,text=f'<b>📕Nᴀᴍᴇ ➠ : <code>{files["file_name"]}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files["file_size"])}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 20 mins to avoid copyrights. Save the link to Somewhere else</i></b>', reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(1200)
-            await k.edit("<b>Your message is successfully deleted!!!</b>")
+            await k.edit("<b>🗑️ Your All Files/Videos is successfully deleted 🗑️</b>")
             return
     user = message.from_user.id
     files_ = await get_file_details(file_id)           
@@ -617,7 +617,7 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Get File Again", callback_data=f'del#{file_id}')
             ]]
-            k = await msg.reply("<b>This Movie File will be deleted in 10 minutes to Avoid the Copyright Issues.</b>\n\n<b>Please forward Above Files to your Saved Messages and Start Download there</b>",quote=True)
+            k = await msg.reply("<b><blockquote>IMPORTANT</blockquote></b>\n\n<b>This Movie Files/Videos will be deleted in 10 mins</b>\n(Due to Copyright Issues)\n\n<b>Please forward this ALL Files/Videos to your Saved Messages and Start Download there.</b>",quote=True)
             await asyncio.sleep(600)
             await msg.delete()
             await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -666,7 +666,7 @@ async def start(client, message):
     btn = [[
         InlineKeyboardButton("Get File Again", callback_data=f'del#{file_id}')
     ]]
-    k = await msg.reply("<b>This Movie File will be deleted in 10 minutes to Avoid the Copyright Issues.</b>\n\n<b>Please forward Above Files to your Saved Messages and Start Download there</b>",quote=True)
+    k = await msg.reply("<b><blockquote>IMPORTANT</blockquote></b>\n\n<b>This Movie Files/Videos will be deleted in 10 mins</b>\n(Due to Copyright Issues)\n\n<b>Please forward this ALL Files/Videos to your Saved Messages and Start Download there.</b>",quote=True)
     await asyncio.sleep(600)
     await msg.delete()
     await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
