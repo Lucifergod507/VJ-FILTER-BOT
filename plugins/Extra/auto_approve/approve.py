@@ -247,6 +247,8 @@ async def auto_approve(client, message: ChatJoinRequest):
                             disable_web_page_preview=True,
                             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=download),  # we download Link
                                                                 InlineKeyboardButton('🌐 sᴛʀᴇᴀᴍ 🌐', url=stream)]])
+                        )
+                        
                     if STREAM_MODE == True:
                         button = [[
                             InlineKeyboardButton("📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=download),  # we download Link
