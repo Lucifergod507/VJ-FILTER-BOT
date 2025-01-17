@@ -50,32 +50,32 @@ async def auto_approve(client, message: ChatJoinRequest):
             else:
                 if PREMIUM_AND_REFERAL_MODE == True:
                     buttons = [[
-                        InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                        InlineKeyboardButton('👥 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 👥', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],[
-                        InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                        InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+                        InlineKeyboardButton('⚙️ ꜰᴇᴀᴛᴜʀᴇ', callback_data="cmds"),
+                        InlineKeyboardButton('✨ ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='shortlink_info')
                     ],[
-                        InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                        InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                        InlineKeyboardButton('🎁 ɢᴇᴛ ꜰʀᴇᴇ ᴘᴀɪᴅ ᴘʀᴇᴍɪᴜᴍ 🎁', callback_data='subscription')
                     ],[
-                        InlineKeyboardButton('🔻 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔻', callback_data='subscription')
+                        InlineKeyboardButton('💥 ᴀʙᴏᴜᴛ', callback_data='about'),
+                        InlineKeyboardButton('⚡️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
                     ],[
-                        InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                        InlineKeyboardButton('🇮🇳 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🇮🇳', url=CHNL_LNK)
                     ]]
                 else:
                     buttons = [[
-                        InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                    ],[
-                        InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                        InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
-                    ],[
-                        InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                        InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
-                    ],[
-                        InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
-                    ]]
+                    InlineKeyboardButton('👥 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 👥', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('⚙️ ꜰᴇᴀᴛᴜʀᴇ', callback_data="cmds"),
+                    InlineKeyboardButton('✨ ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='shortlink_info')
+                ],[
+                    InlineKeyboardButton('💥 ᴀʙᴏᴜᴛ', callback_data='about'),
+                    InlineKeyboardButton('⚡️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK)
+                ],[
+                    InlineKeyboardButton('🇮🇳 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🇮🇳', url=CHNL_LNK)
+                ]]
                 reply_markup = InlineKeyboardMarkup(buttons)
-                m=await client.send_sticker(chat_id = message.from_user.id, sticker = "CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+                m=await client.send_sticker(chat_id = message.from_user.id, sticker = "CAACAgIAAxkBAAIBOWZfJLLif3OLlN2KmYRMrkH--SGpAAJHAANZu_wlXJ3WrE3fYSweBA") 
                 await asyncio.sleep(1)
                 await m.delete()
                 await client.send_photo(
@@ -146,27 +146,18 @@ async def auto_approve(client, message: ChatJoinRequest):
                             text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
                             quote=True,
                             disable_web_page_preview=True,
-                            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                                                                InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])  # web stream Link
+                            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=download),  # we download Link
+                                                                InlineKeyboardButton('🌐 sᴛʀᴇᴀᴍ 🌐', url=stream)]])  # web stream Link
                         )
                     if STREAM_MODE == True:
                         button = [[
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                        ],[
-                            InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
-                        ],[
-                            InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
-                            InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
-                        ],[
-                            InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                            InlineKeyboardButton("📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=download),  # we download Link
+                            InlineKeyboardButton('🌐 sᴛʀᴇᴀᴍ 🌐', url=stream)
                         ]]
                     else:
                         button = [[
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                        ],[
-                            InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
+                            InlineKeyboardButton('⚡️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
+                            InlineKeyboardButton('🇮🇳 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🇮🇳', url=CHNL_LNK)
                         ]]
                     msg = await client.send_cached_media(
                         chat_id=message.from_user.id,
@@ -194,11 +185,11 @@ async def auto_approve(client, message: ChatJoinRequest):
                     continue
                 await asyncio.sleep(1) 
             await sts.delete()
-            k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
+            k = await client.send_message(chat_id = message.from_user.id, text=f"<b><blockquote>IMPORTANT</blockquote></b>\n\n<b>This Movie Files/Videos will be deleted in 10 mins</b>\n(Due to Copyright Issues)\n\n<b>Please forward this ALL Files/Videos to your Saved Messages and Start Download there.</b>")
             await asyncio.sleep(600)
             for x in filesarr:
                 await x.delete()
-            await k.edit_text("<b>Your All Files/Videos is successfully deleted!!!</b>")  
+            await k.edit_text("<b>🗑️ Your All Files/Videos is successfully deleted 🗑️</b>")  
             return
         elif data.split("-", 1)[0] == "DSTORE":
             sts = await client.send_message(message.from_user.id, "<b>Please wait...</b>")
@@ -254,27 +245,17 @@ async def auto_approve(client, message: ChatJoinRequest):
                             text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
                             quote=True,
                             disable_web_page_preview=True,
-                            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                                                                InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])  # web stream Link
-                        )
+                            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=download),  # we download Link
+                                                                InlineKeyboardButton('🌐 sᴛʀᴇᴀᴍ 🌐', url=stream)]])
                     if STREAM_MODE == True:
                         button = [[
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                        ],[
-                            InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
-                        ],[
-                            InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
-                            InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
-                        ],[
-                            InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                            InlineKeyboardButton("📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥", url=download),  # we download Link
+                            InlineKeyboardButton('🌐 sᴛʀᴇᴀᴍ 🌐', url=stream)
                         ]]
                     else:
                         button = [[
-                            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                        ],[
-                            InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
+                            InlineKeyboardButton('⚡️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
+                            InlineKeyboardButton('🇮🇳 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🇮🇳', url=CHNL_LNK)
                         ]]
                     try:
                         p = await msg.copy(message.from_user.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False, reply_markup=InlineKeyboardMarkup(button))
@@ -305,11 +286,11 @@ async def auto_approve(client, message: ChatJoinRequest):
                         continue
                 await asyncio.sleep(1)
             await sts.delete()
-            k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
+            k = await client.send_message(chat_id = message.from_user.id, text=f"<b><blockquote>IMPORTANT</blockquote></b>\n\n<b>This Movie Files/Videos will be deleted in 10 mins</b>\n(Due to Copyright Issues)\n\n<b>Please forward this ALL Files/Videos to your Saved Messages and Start Download there.</b>")
             await asyncio.sleep(600)
             for x in filesarr:
                 await x.delete()
-            await k.edit_text("<b>Your All Files/Videos is successfully deleted!!!</b>")
+            await k.edit_text("<b>🗑️ Your All Files/Videos is successfully deleted 🗑️</b>")
             return
         elif data.split("-", 1)[0] == "verify":
             userid = data.split("-", 2)[1]
@@ -404,19 +385,12 @@ async def auto_approve(client, message: ChatJoinRequest):
                         return
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                    ],[
-                        InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
-                    ],[
-                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
+                        InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥/🌐 sᴛʀᴇᴀᴍ 🌐', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
                     ]]
                 else:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                    ],[
-                        InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
+                        InlineKeyboardButton('⚡️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
+                        InlineKeyboardButton('🇮🇳 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🇮🇳', url=CHNL_LNK)
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -426,7 +400,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                     reply_markup=InlineKeyboardMarkup(button)
                 )
                 filesarr.append(msg)
-            k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
+            k = await client.send_message(chat_id = message.from_user.id, text=f"<b><blockquote>IMPORTANT</blockquote></b>\n\n<b>This Movie Files/Videos will be deleted in 10 mins</b>\n(Due to Copyright Issues)\n\n<b>Please forward this ALL Files/Videos to your Saved Messages and Start Download there.</b>")
             await asyncio.sleep(600)
             for x in filesarr:
                 await x.delete()
@@ -474,19 +448,12 @@ async def auto_approve(client, message: ChatJoinRequest):
                         return
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                    ],[
-                        InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
-                    ],[
-                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
+                        InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥/🌐 sᴛʀᴇᴀᴍ 🌐', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
                     ]]
                 else:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                    ],[
-                        InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
+                        InlineKeyboardButton('⚡️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
+                        InlineKeyboardButton('🇮🇳 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🇮🇳', url=CHNL_LNK)
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -496,7 +463,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 )
                 filetype = msg.media
                 file = getattr(msg, filetype.value)
-                title = '@VJ_Bots  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+                title = '@cinemahdmvoie  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
                 size=get_size(file.file_size)
                 f_caption = f"<code>{title}</code>"
                 if CUSTOM_FILE_CAPTION:
@@ -511,7 +478,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 btn = [[
                     InlineKeyboardButton("Get File Again", callback_data=f'del#{file_id}')
                 ]]
-                k = await client.send_message(message.from_user.id,"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>")
+                k = await client.send_message(message.from_user.id,"<b><blockquote>IMPORTANT</blockquote></b>\n\n<b>This Movie Files/Videos will be deleted in 10 mins</b>\n(Due to Copyright Issues)\n\n<b>Please forward this ALL Files/Videos to your Saved Messages and Start Download there.</b>")
                 await asyncio.sleep(600)
                 await msg.delete()
                 await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -547,19 +514,12 @@ async def auto_approve(client, message: ChatJoinRequest):
                 return
         if STREAM_MODE == True:
             button = [[
-                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-            ],[
-                InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
-            ],[
-                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
+                InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ 📥/🌐 sᴛʀᴇᴀᴍ 🌐', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @KingVJ01
             ]]
         else:
             button = [[
-                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-            ],[
-                InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
+                InlineKeyboardButton('⚡️ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url=GRP_LNK),
+                InlineKeyboardButton('🇮🇳 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🇮🇳', url=CHNL_LNK)
             ]]
         msg = await client.send_cached_media(
             chat_id=message.from_user.id,
@@ -571,7 +531,7 @@ async def auto_approve(client, message: ChatJoinRequest):
         btn = [[
             InlineKeyboardButton("Get File Again", callback_data=f'del#{file_id}')
         ]]
-        k = await client.send_message(message.from_user.id, "<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>")
+        k = await client.send_message(message.from_user.id, "<b><blockquote>IMPORTANT</blockquote></b>\n\n<b>This Movie Files/Videos will be deleted in 10 mins</b>\n(Due to Copyright Issues)\n\n<b>Please forward this ALL Files/Videos to your Saved Messages and Start Download there.</b>")
         await asyncio.sleep(600)
         await msg.delete()
         await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
