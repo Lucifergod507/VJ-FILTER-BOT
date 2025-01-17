@@ -253,9 +253,7 @@ For Help Msg Here: @Movie_Request_233bot"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-
-<b> Size ⚙️: {file_size}</b>""" 
+    CAPTION = """<b>{file_name}</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʀᴇ ɪ ғᴏᴜɴᴅ ғʀᴏᴍ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ: {query}
