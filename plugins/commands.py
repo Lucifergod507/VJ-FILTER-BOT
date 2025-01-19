@@ -98,7 +98,7 @@ async def start(client, message):
         try:
             btn = [[
             InlineKeyboardButton("ᴊᴏɪɴ ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link)
-        ]]
+        ],[
             InlineKeyboardButton("♻️ ᴛʀʏ ᴀɢᴀɪɴ ♻️", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")
 #            InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", callback_data=f"checksub#{kk}#{file_id}")
         ]]
